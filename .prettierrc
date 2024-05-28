@@ -1,0 +1,29 @@
+{
+  "trailingComma": "all",
+  "tabWidth": 4,
+  "singleQuote": true,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports"
+  ],
+  "importOrderParserPlugins": [
+    "typescript",
+    "decorators-legacy"
+  ],
+  "importOrder": [
+    "<BUILT_IN_MODULES>",
+    "",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@photoshare/(.*)$",
+    "",
+    "^[.]"
+  ],
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
