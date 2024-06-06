@@ -1,0 +1,32 @@
+{
+  "name": "@photoshare/common",
+  "version": "0.0.0",
+  "description": "Photoshare common module",
+  "type": "module",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.588.0",
+    "@aws-sdk/lib-dynamodb": "^3.588.0"
+  },
+  "devDependencies": {
+    "aws-sdk-client-mock": "^4.0.1"
+  },
+  "directories": {
+    "lib": "./dist",
+    "test": "./src"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha",
+    "commit": "git-cz",
+    "commit:retry": "git-cz --retry",
+    "commitmsg": "commitlint -e"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/@commitlint/prompt"
+    }
+  }
+}
