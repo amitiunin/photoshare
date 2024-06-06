@@ -5,7 +5,7 @@ import eslintConfigPrettier from 'eslint-config-prettier';
 import tseslint from 'typescript-eslint';
 
 let ignoreConfig = {
-    ignores: ['**/dist', '*.config.js'],
+    ignores: ['**/dist', '*config.js'],
 };
 
 const projectConfig = {
