@@ -8,6 +8,6 @@ export class AlbumService {
     async getAlbums(): Promise<Album[]> {
         return this.db
             .get<Album>('albums')
-            .then((data) => data.filter((item: unknown) => AlbumType.is(item)));
+            .then((data) => data.filter(AlbumType.is));
     }
 }
