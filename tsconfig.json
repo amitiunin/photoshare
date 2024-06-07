@@ -8,5 +8,9 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
+  "paths": {
+    "@photoshare/album-service": ["packages/backend/services/albums/src"],
+    "@photoshare/common": ["packages/common/src"]
+  },
   "exclude": ["node_modules"]
 }

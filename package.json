@@ -10,7 +10,8 @@
     "node": ">=18.12.0"
   },
   "workspaces": [
-    "packages/common"
+    "packages/common",
+    "packages/backend/services/*"
   ],
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
