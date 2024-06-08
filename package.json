@@ -11,7 +11,8 @@
   },
   "workspaces": [
     "packages/common",
-    "packages/backend/services/*"
+    "packages/backend/services/*",
+    "packages/backend/lambdas/*"
   ],
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",

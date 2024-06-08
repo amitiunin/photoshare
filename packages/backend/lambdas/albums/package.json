@@ -1,0 +1,22 @@
+{
+  "name": "@photoshare/album-lambda",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "@photoshare/album-service": "0.0.0",
+    "@photoshare/common": "0.0.0",
+    "aws-lambda": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.138"
+  },
+  "directories": {
+    "lib": "./dist",
+    "test": "./src"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha"
+  }
+}
