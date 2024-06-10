@@ -4,9 +4,13 @@
   "type": "module",
   "private": true,
   "dependencies": {
+    "@aws-lambda-powertools/commons": "^2.1.1",
+    "@aws-lambda-powertools/parser": "^2.1.1-beta",
     "@photoshare/album-service": "0.0.0",
     "@photoshare/common": "0.0.0",
-    "aws-lambda": "^1.0.7"
+    "awilix": "^10.0.2",
+    "aws-lambda": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.138"
